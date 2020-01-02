@@ -1,0 +1,113 @@
+@import "http://at.alicdn.com/t/font_1485979_a1lhtb9ex5d.css";
+
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    width:100%;
+    height: 100%;
+}
+body{
+    width:100%;
+    height: 100%;
+}
+.wrapperMessageList{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.topMessageList{
+    width:100vw;
+    height: 7vh;
+    flex:1 1 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F7F7F7;
+
+}
+.topMessageList span{
+    font-style: inherit;
+    font-size:2rem;
+}
+.topMessageList i{
+    padding:0 1rem;
+    font-size:2rem;
+}
+.centerMessageList{
+    width:100vw;
+    height: 83vh;
+    flex:8 8 auto;
+    overflow: auto;
+}
+.centerMessageList span{
+    border:2vh;
+    height: 4.5vh;
+    text-align: center;
+    line-height: 4.5vh;
+    padding:0 1rem;
+    background-color: #3CC472;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+
+.centerMessageList .left {
+    width: 80%;
+    height: 6vh;
+    /* border: 1px solid black; */
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.centerMessageList .right {
+    width: 80%;
+    height: 6vh;
+    /* border: 1px solid black; */
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.centerMessageList .msg {
+    width: 5rem;
+    height: 5rem;
+    background-color: orange;
+    margin: 0.5rem 1rem;
+
+}
+
+.centerMessageList .msg img{
+    width:100%;
+    height: 100%;
+    border-radius: 10%;
+}
+.bottomMessageList{
+    width:100vw;
+    height: 10vh;
+    flex:1 1 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F7F7F7;
+    
+
+}
+.bottomMessageList i{
+    flex:1 1 auto;
+    font-size:3rem;
+    padding:0 1.3rem;
+}
+
+.bottomMessageList input{
+    font-size: 3rem;
+    border:none;
+    height: 80%;
+    width:75vw;
+    flex: 1 1 auto;
+}

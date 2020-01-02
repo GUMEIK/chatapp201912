@@ -1,0 +1,66 @@
+.ToastWrapper{
+    position: absolute;
+    left: calc(50% - 40vw);
+    top:calc(50% - 27vh);
+    width:80vw;
+    height: 50vh;
+    background-color: #ddd;
+    z-index: 998;
+    border:2px solid black;
+}
+
+.ToastHeaderTip{
+    /* 放置最上层 */
+    z-index: 999;
+    position: absolute;
+    width:100%;
+    height: 5vh;
+    background-color: #fad48b;
+    color: #000;
+    font-size: 2.5rem;
+    line-height: 5rem;
+    text-align: center;
+}
+
+.ToastContent{
+    width: 100%;
+    height: 45vh;
+    margin-top:5vh;
+    position: relative;
+}
+
+.ToastContent .Tips{
+    width: 75vw;
+    height: 20vh;
+    background-color: #fff;
+    position: absolute;
+    top:calc(50% - 10vh);
+    left: calc(50% - 37.5vw);
+    display: flex;
+    flex-direction: column;
+}
+
+.ToastContent .Tips .top{
+    width:100%;
+    height: 15vh;
+    background-color: #fff;
+    border-bottom:0.3rem solid #ddd;
+    box-sizing: border-box;
+}
+
+.ToastContent .Tips .bottom{
+    width:100%;
+    height: 5vh;
+    display:flex;
+    justify-content: space-around;
+    font-size:2.3rem;
+    align-items: center;
+}
+
+.ToastContent .Tips .bottom div{
+    width:30vw;
+    height: 4vh;
+    line-height: 4vh;
+    text-align: center;
+    background-color: #ddd;
+}

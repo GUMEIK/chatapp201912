@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0
+}
+.wrapperRegister{
+    width: 100%;
+    height: 100%;
+}
+.wrapperRegister .titleRegister{
+    font-size: 4rem;
+    color:#ccc;
+}
+.wrapperRegister .titleRegister,
+.wrapperRegister .nameRegister,
+.wrapperRegister .passwordRegister,
+.wrapperRegister .mailRegister{
+    height:17vh;
+    border:1px solid #ddd;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+}
+.wrapperRegister input{
+    width: 75vw;
+    height: 7vh;
+    margin: 0 1rem;
+    font-size:3rem;
+    border:2px solid #ddd;
+    border-radius: 1.5rem;
+}
+.wrapperRegister label{
+    font-size: 3rem;
+    height: 7vh;
+    line-height: 7vh;
+}
+.wrapperRegister .registerRegister{
+    height: 32vh;
+    border:1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.wrapperRegister .registerRegister button{
+    width:60vw;
+    height: 7vh;
+    background-color: cadetblue;
+    color:#fff;
+    border:none;
+    font-size: 3rem;
+    border-radius: 2rem;;
+} 
